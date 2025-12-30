@@ -17,4 +17,14 @@ namespace Test.Constraints
             return new T();
         }
     }
+
+    public class Call
+    {
+        static void Main()
+        {
+            ////New Constraints call, dependency creation logic
+            NewConstraints<User> newConstraints = new NewConstraints<User>();
+            User user = newConstraints.Create();
+        }
+    }
 }

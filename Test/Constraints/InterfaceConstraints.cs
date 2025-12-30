@@ -23,6 +23,15 @@ namespace Test.Constraints
         {
             logger.Log();
         }
+    }
 
+    public class InterfaceCall
+    {
+        public void Main()
+        {
+            ////Interface Constraints call
+            InterfaceConstraints<ILogger> interfaceConstraints = new InterfaceConstraints<ILogger>();
+            interfaceConstraints.Execute(new Logger());
+        }
     }
 }

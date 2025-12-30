@@ -22,4 +22,17 @@ namespace Test.Generics
             b = temp;
         }
     }
+
+    public class GenericCall
+    {
+        static void Main()
+        {
+            GenericClass<string> genericClass = new GenericClass<string> { Value = "Generic class" };
+            genericClass.Display();
+
+            int x = 5, y = 6;
+            GenericClass<int>.Swap(ref x, ref y);
+            Console.WriteLine($"x = {x}, y = {y}");
+        }
+    }
 }

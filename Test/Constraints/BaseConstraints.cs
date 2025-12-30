@@ -34,4 +34,15 @@ namespace Test.Constraints
             vehicle.Stop();
         }
     }
+
+    public class Call
+    {
+        static void Main()
+        {
+            //Base Constraints call, Common in domain models
+            BaseConstraints<Vehicle> baseConstraints = new BaseConstraints<Vehicle>();
+            baseConstraints.Run(new Car());
+            baseConstraints.Break(new Car());
+        }
+    }
 }

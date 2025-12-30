@@ -15,4 +15,14 @@ namespace Test.Constraints
             Console.WriteLine($"{Value}");
         }
     }
+
+    public class StructCall
+    {
+        public void Main()
+        {
+            ////Struct Constraints call, Prevents null
+            StructConstraints<int> structConstraints = new StructConstraints<int> { Value = 1 };
+            structConstraints.Print();
+        }
+    }
 }

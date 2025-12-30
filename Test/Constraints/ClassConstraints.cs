@@ -20,4 +20,15 @@ namespace Test.Constraints
             Console.WriteLine(Data == null ? "Null Data" : Data);
         }
     }
+
+    public class ClassCall
+    {
+        static void Main()
+        {
+            ClassConstraints<string> classConstraints = new ClassConstraints<string> { Data = "Apple" };
+            //classConstraints.Data.Id = 1;
+            //classConstraints.Data.Name = "Apple";
+            classConstraints.Display();
+        }
+    }
 }

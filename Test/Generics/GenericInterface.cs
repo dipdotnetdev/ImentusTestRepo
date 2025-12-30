@@ -16,4 +16,13 @@ namespace Test.Generics
             Console.WriteLine($"{item} added.");
         }
     }
+
+    public class GenericInterfaceCall
+    {
+        static void Main()
+        {
+            GenericInterface genericInterface = new GenericInterface();
+            genericInterface.Add("Product");
+        }
+    }
 }

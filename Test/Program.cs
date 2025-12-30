@@ -28,7 +28,7 @@ class Program
         //GenericClass<int>.Swap(ref x, ref y);
         //Console.WriteLine($"x = {x}, y = {y}");
 
-        ////Generic Interface call
+        ////GenericInterface.cs call
         //GenericInterface genericInterface = new GenericInterface();
         //genericInterface.Add("Product");
 
@@ -64,7 +64,7 @@ class Program
         //InterfaceConstraints<ILogger> interfaceConstraints = new InterfaceConstraints<ILogger>();
         //interfaceConstraints.Execute(new Logger());
 
-        ////Delegate call
+        ////TestDelegate.cs call
         //TestDelegate testDelegate = new TestDelegate(); 
         //MyDelegate myDelegate = testDelegate.Test;
         ////Multicast Delegates
@@ -75,6 +75,8 @@ class Program
         //myDelegate2("profile reached");
 
 
+
+        ////MulticastDeligateClass.cs call
         //MulticastDelegateClass md = new MulticastDelegateClass();
         //SMS sMS = new SMS();
         //Email email = new Email();
@@ -91,11 +93,11 @@ class Program
         //md2("new message");
 
 
-        ////Event call
+        ////EventClass.cs call
         //EventClass eventClass = new EventClass();
         //eventClass.OnCompleted += () => Console.WriteLine("Completed");
 
-        ////Event Handler call
+        ////EventHandler.cs call
         //static void Wakeup(object sender, EventArgs eventArgs)
         //{
         //    Console.WriteLine("Wake Up");
@@ -111,7 +113,7 @@ class Program
         //e.OrderProcessed += Service_OrderProcessed;
         //e.ProcessOrder(101);
 
-        ////CustomEvent call
+        ////CustomEventClass.cs call
         //var custom = new CustomEventClass();
         //custom.PriceChanged += (sender, e) =>
         //{
@@ -179,7 +181,7 @@ class Program
         //Person person1 = (Person)xmlSerializer.Deserialize(fsm);
 
 
-        ////Threads
+        ////ThreadsClass.cs call
         //Thread thread = new Thread(ThreadClass.PrintNums);
         //thread.Start();
         //// threadStart = new ThreadStart(ThreadClass.PrintNums);
@@ -255,7 +257,7 @@ class Program
         //}
 
 
-        ////Indexer call - Object of class behave like Array.
+        ////IndexerClass.cs call - Object of class behave like Array.
         //IndexerClass indexer = new IndexerClass();
         //indexer[0] = "app";
         //indexer[1] = "web";
