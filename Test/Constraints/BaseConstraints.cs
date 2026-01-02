@@ -35,7 +35,7 @@ namespace Test.Constraints
         }
     }
 
-    public class Call
+    public class BaseCall
     {
         static void Main()
         {
