@@ -23,7 +23,7 @@ namespace Test.Constraints
 
     public class ClassCall
     {
-        static void Main()
+        static void Main1()
         {
             ClassConstraints<string> classConstraints = new ClassConstraints<string> { Data = "Apple" };
             //classConstraints.Data.Id = 1;

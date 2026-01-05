@@ -25,7 +25,7 @@ namespace Test.Generics
 
     public class GenericCall
     {
-        static void Main()
+        static void Main1()
         {
             GenericClass<string> genericClass = new GenericClass<string> { Value = "Generic class" };
             genericClass.Display();

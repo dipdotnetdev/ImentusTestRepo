@@ -20,7 +20,7 @@ namespace Test.Constraints
 
     public class Call
     {
-        static void Main()
+        static void Main1()
         {
             ////New Constraints call, dependency creation logic
             NewConstraints<User> newConstraints = new NewConstraints<User>();

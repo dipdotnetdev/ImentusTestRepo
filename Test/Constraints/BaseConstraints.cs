@@ -37,7 +37,7 @@ namespace Test.Constraints
 
     public class BaseCall
     {
-        static void Main()
+        static void Main1()
         {
             //Base Constraints call, Common in domain models
             BaseConstraints<Vehicle> baseConstraints = new BaseConstraints<Vehicle>();

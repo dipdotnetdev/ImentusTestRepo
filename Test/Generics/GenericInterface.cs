@@ -19,7 +19,7 @@ namespace Test.Generics
 
     public class GenericInterfaceCall
     {
-        static void Main()
+        static void Main1()
         {
             GenericInterface genericInterface = new GenericInterface();
             genericInterface.Add("Product");
